@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-label="Flutter UI experiments preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5f4ff"/><stop offset="1" stop-color="#e9eff9"/></linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7669f2"/><stop offset="1" stop-color="#5144ca"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#20254b" flood-opacity=".16"/></filter>
+  </defs>
+  <rect width="1200" height="640" rx="32" fill="url(#bg)"/>
+  <circle cx="1093" cy="99" r="190" fill="#d7d4ff" opacity=".5"/>
+  <circle cx="104" cy="587" r="180" fill="#d6e7f2" opacity=".65"/>
+  <g font-family="Arial, sans-serif" fill="#202340">
+    <rect x="82" y="92" width="58" height="58" rx="17" fill="url(#violet)"/>
+    <path d="M99 109h25M99 121h25M99 133h17" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+    <text x="162" y="121" font-size="27" font-weight="700" letter-spacing="1">UI EXPERIMENTS</text>
+    <text x="162" y="151" font-size="16" fill="#777d9a" letter-spacing="1.5">FLUTTER INTERFACE STUDIES</text>
+    <text x="82" y="258" font-family="Georgia,serif" font-size="61" font-weight="700">Small ideas,</text>
+    <text x="82" y="326" font-family="Georgia,serif" font-size="61" font-weight="700" fill="#5a4bd6">better screens.</text>
+    <text x="84" y="376" font-size="20" fill="#707793">A growing collection of interface</text>
+    <text x="84" y="406" font-size="20" fill="#707793">layouts built with Flutter.</text>
+    <rect x="82" y="463" width="148" height="50" rx="13" fill="url(#violet)"/>
+    <text x="119" y="495" font-size="17" font-weight="700" fill="#fff">VIEW DESIGNS</text>
+    <text x="84" y="559" font-size="14" fill="#7c82a0" letter-spacing="1">LAYOUTS  ·  COMPONENTS  ·  FLUTTER</text>
+  </g>
+  <g filter="url(#shadow)" transform="translate(650 52)">
+    <rect x="0" y="0" width="490" height="510" rx="25" fill="#fff" stroke="#dce2ef" stroke-width="2"/>
+    <rect x="0" y="0" width="490" height="53" rx="25" fill="#fff"/>
+    <path d="M0 53h490" stroke="#eaedf5"/>
+    <circle cx="26" cy="27" r="5" fill="#f08c88"/><circle cx="45" cy="27" r="5" fill="#f2c16a"/><circle cx="64" cy="27" r="5" fill="#78cba0"/>
+    <rect x="90" y="17" width="277" height="20" rx="9" fill="#f1f2f8"/>
+    <text x="24" y="91" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#292c4a">DASHBOARD CONCEPT</text>
+    <text x="24" y="116" font-family="Arial,sans-serif" font-size="10" fill="#9196aa">Component layout · 01</text>
+    <rect x="24" y="136" width="442" height="126" rx="16" fill="#f3f2ff"/>
+    <rect x="43" y="156" width="160" height="13" rx="6" fill="#302f59"/>
+    <rect x="43" y="181" width="109" height="8" rx="4" fill="#c6c8dd"/>
+    <rect x="43" y="199" width="137" height="8" rx="4" fill="#c6c8dd"/>
+    <rect x="43" y="222" width="92" height="23" rx="8" fill="url(#violet)"/>
+    <path d="M234 229c21-29 41-14 58-35s37 4 52-8 29-23 49-40 30-12 46-31" fill="none" stroke="#6557e8" stroke-width="5" stroke-linecap="round"/>
+    <path d="M234 238h213M235 155v83" stroke="#d4d7e6" stroke-width="2"/>
+    <g fill="#dcd9ff"><circle cx="292" cy="194" r="6"/><circle cx="344" cy="185" r="6"/><circle cx="393" cy="166" r="6"/><circle cx="439" cy="145" r="6"/></g>
+    <text x="24" y="297" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#292c4a">Quick components</text>
+    <rect x="24" y="313" width="136" height="99" rx="14" fill="#fff" stroke="#e5e7f0"/>
+    <circle cx="53" cy="343" r="15" fill="#e7e4ff"/><path d="M48 343h10M53 338v10" stroke="#6557e8" stroke-width="2" stroke-linecap="round"/>
+    <rect x="43" y="369" width="92" height="8" rx="4" fill="#373a5b"/><rect x="43" y="385" width="70" height="6" rx="3" fill="#c8cad8"/>
+    <rect x="177" y="313" width="136" height="99" rx="14" fill="#fff" stroke="#e5e7f0"/>
+    <rect x="193" y="329" width="104" height="31" rx="10" fill="#eef5ff"/><circle cx="211" cy="344" r="8" fill="#8ab5f7"/><rect x="226" y="340" width="58" height="6" rx="3" fill="#8c96ae"/>
+    <rect x="194" y="369" width="95" height="8" rx="4" fill="#373a5b"/><rect x="194" y="385" width="65" height="6" rx="3" fill="#c8cad8"/>
+    <rect x="330" y="313" width="136" height="99" rx="14" fill="#fff" stroke="#e5e7f0"/>
+    <rect x="346" y="330" width="104" height="14" rx="7" fill="#f1efff"/><rect x="346" y="353" width="68" height="8" rx="4" fill="#5a4bd6"/><rect x="346" y="371" width="88" height="7" rx="3" fill="#c8cad8"/><rect x="346" y="387" width="56" height="7" rx="3" fill="#c8cad8"/>
+    <rect x="24" y="435" width="442" height="49" rx="13" fill="#fafaff" stroke="#e7e8f2"/>
+    <circle cx="49" cy="459" r="9" fill="#80d2b1"/><text x="68" y="464" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#4a506d">Responsive card pattern</text>
+    <rect x="375" y="448" width="72" height="22" rx="11" fill="#e8e5ff"/><text x="394" y="463" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#5a4bd6">FLUTTER</text>
+  </g>
+</svg>
+

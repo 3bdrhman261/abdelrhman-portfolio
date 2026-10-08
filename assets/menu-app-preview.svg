@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-label="Illustrated food menu app preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffaf4"/><stop offset="1" stop-color="#f4eee7"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fb9a58"/><stop offset="1" stop-color="#e66b3d"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#1b2838" flood-opacity=".16"/></filter>
+  </defs>
+  <rect width="1200" height="640" rx="32" fill="url(#bg)"/>
+  <circle cx="1030" cy="84" r="180" fill="#f8dfcc" opacity=".55"/>
+  <circle cx="106" cy="576" r="190" fill="#dce9ed" opacity=".55"/>
+  <g font-family="Arial, sans-serif" fill="#20364a">
+    <rect x="82" y="92" width="58" height="58" rx="17" fill="#203e55"/>
+    <path d="M99 109h25M99 121h25M99 133h17" fill="none" stroke="#fffaf4" stroke-width="5" stroke-linecap="round"/>
+    <text x="162" y="121" font-size="27" font-weight="700" letter-spacing="1">MENU APP</text>
+    <text x="162" y="151" font-size="16" fill="#768596" letter-spacing="1.5">FLUTTER FOOD EXPERIENCE</text>
+    <text x="82" y="258" font-family="Georgia,serif" font-size="61" font-weight="700">Good food,</text>
+    <text x="82" y="326" font-family="Georgia,serif" font-size="61" font-weight="700" fill="#e66b3d">easy to find.</text>
+    <text x="84" y="376" font-size="20" fill="#738496">Browse a menu, explore dishes,</text>
+    <text x="84" y="406" font-size="20" fill="#738496">and find your next favorite.</text>
+    <rect x="82" y="463" width="148" height="50" rx="13" fill="#203e55"/>
+    <text x="116" y="495" font-size="17" font-weight="700" fill="#fff">BROWSE MENU</text>
+    <text x="84" y="559" font-size="14" fill="#8291a0" letter-spacing="1">CATEGORIES  ·  DISH DETAILS  ·  FLUTTER</text>
+  </g>
+  <g filter="url(#shadow)" transform="translate(676 42) rotate(3 215 280)">
+    <rect x="0" y="0" width="435" height="556" rx="38" fill="#172537"/>
+    <rect x="12" y="12" width="411" height="532" rx="30" fill="#fcfbf8"/>
+    <rect x="165" y="18" width="105" height="15" rx="8" fill="#172537"/>
+    <text x="42" y="75" font-family="Arial,sans-serif" font-size="16" fill="#8792a0">GOOD AFTERNOON</text>
+    <text x="42" y="110" font-family="Georgia,serif" font-size="32" font-weight="700" fill="#20364a">Find your meal</text>
+    <circle cx="372" cy="76" r="23" fill="#f5e8dd"/><path d="M363 76h18M372 67v18" stroke="#e66b3d" stroke-width="3" stroke-linecap="round"/>
+    <rect x="34" y="132" width="367" height="48" rx="14" fill="#f1f1ee"/>
+    <circle cx="60" cy="155" r="8" fill="none" stroke="#8792a0" stroke-width="2"/><path d="m66 161 7 7" stroke="#8792a0" stroke-width="2"/>
+    <text x="84" y="161" font-family="Arial,sans-serif" font-size="14" fill="#8792a0">Search dishes</text>
+    <text x="38" y="216" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#20364a">Categories</text>
+    <g font-family="Arial,sans-serif" font-size="12" font-weight="700">
+      <rect x="36" y="232" width="92" height="35" rx="17" fill="#203e55"/><text x="56" y="254" fill="#fff">Popular</text>
+      <rect x="138" y="232" width="86" height="35" rx="17" fill="#f4eee7"/><text x="158" y="254" fill="#627283">Meals</text>
+      <rect x="234" y="232" width="75" height="35" rx="17" fill="#f4eee7"/><text x="250" y="254" fill="#627283">Sides</text>
+      <rect x="319" y="232" width="76" height="35" rx="17" fill="#f4eee7"/><text x="338" y="254" fill="#627283">Drinks</text>
+    </g>
+    <g>
+      <rect x="36" y="285" width="363" height="111" rx="18" fill="#fff" stroke="#eee7df"/>
+      <rect x="48" y="297" width="91" height="87" rx="13" fill="#f7d8ba"/>
+      <circle cx="93" cy="341" r="30" fill="#fff2df"/><ellipse cx="93" cy="347" rx="25" ry="12" fill="#d46e35"/><path d="M70 337q23-23 46 0H70" fill="#e7a34c"/><path d="M73 329q20-13 40 0" fill="none" stroke="#774730" stroke-width="5" stroke-linecap="round"/><path d="M72 342h42" stroke="#8d4b2e" stroke-width="3"/>
+      <text x="157" y="325" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#20364a">Classic burger</text>
+      <text x="157" y="349" font-family="Arial,sans-serif" font-size="12" fill="#8792a0">Fresh, simple, satisfying</text>
+      <text x="157" y="376" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#e66b3d">$8.50</text>
+      <circle cx="368" cy="357" r="16" fill="#f8e2d1"/><path d="M361 357h14M368 350v14" stroke="#e66b3d" stroke-width="2.5" stroke-linecap="round"/>
+      <rect x="36" y="408" width="363" height="111" rx="18" fill="#fff" stroke="#eee7df"/>
+      <rect x="48" y="420" width="91" height="87" rx="13" fill="#f6e3b8"/>
+      <circle cx="93" cy="463" r="30" fill="#fff5da"/><path d="M69 452q24-15 48 0l-4 25q-20 15-40 0z" fill="#dc9a4c"/><path d="M73 451q20-12 40 0" fill="none" stroke="#8a5a31" stroke-width="4"/><path d="M82 450v-11M94 450v-13M106 450v-10" stroke="#f7e7ba" stroke-width="3" stroke-linecap="round"/>
+      <text x="157" y="448" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#20364a">Golden fries</text>
+      <text x="157" y="472" font-family="Arial,sans-serif" font-size="12" fill="#8792a0">Crispy with sea salt</text>
+      <text x="157" y="499" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#e66b3d">$4.00</text>
+      <circle cx="368" cy="480" r="16" fill="#f8e2d1"/><path d="M361 480h14M368 473v14" stroke="#e66b3d" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
+
