@@ -185,3 +185,6 @@ footer a{color:var(--ink);font-weight:700;margin-left:14px}
 @media(prefers-reduced-motion:reduce){
   .skill-tile,.skill-tile .skill-open-indicator,.skill-info-panel{animation:none!important;transition:none!important;transform:none!important}
 }
+
+.skill-tile{cursor:default}
+.skill-dot{position:absolute;top:16px;right:16px;width:6px;height:6px;border-radius:50%;background:var(--blue);box-shadow:0 0 10px rgba(91,157,255,.5)}
