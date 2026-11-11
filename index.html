@@ -137,10 +137,12 @@ document.querySelectorAll('.skill-toggle').forEach((toggle) => {
     document.querySelectorAll('.skill-toggle').forEach((item) => {
       item.setAttribute('aria-expanded', 'false');
       document.getElementById(item.getAttribute('aria-controls')).hidden = true;
+      item.closest('.skill-card')?.classList.remove('is-open');
     });
     if (!wasExpanded) {
       toggle.setAttribute('aria-expanded', 'true');
       document.getElementById(toggle.getAttribute('aria-controls')).hidden = false;
+      toggle.closest('.skill-card')?.classList.add('is-open');
     }
   });
 });
