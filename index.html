@@ -145,6 +145,26 @@ document.querySelectorAll('.skill-toggle').forEach((toggle) => {
   });
 });
 </script>
+<script>
+
+const skillGroups = document.querySelectorAll('.skill-group');
+if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  document.documentElement.classList.add('motion-enabled');
+  if ('IntersectionObserver' in window) {
+    const skillObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    skillGroups.forEach((group) => skillObserver.observe(group));
+  } else {
+    skillGroups.forEach((group) => group.classList.add('is-visible'));
+  }
+}
+</script>
 </body>
 </html>
 
