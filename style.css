@@ -156,3 +156,32 @@ footer a{color:var(--ink);font-weight:700;margin-left:14px}
 @media(prefers-reduced-motion:reduce){
   .skill-toggle,.skill-expand,.skill-detail:not([hidden]),.skill-card{animation:none!important;transition:none!important;transform:none!important}
 }
+
+.skills-categories{display:grid;gap:30px}
+.skill-category-heading{display:flex;align-items:center;gap:10px;padding-bottom:11px;margin-bottom:14px;border-bottom:1px solid var(--line)}
+.skill-category-heading .i{color:var(--blue);width:17px;height:17px}
+.skill-category-heading h3{font-size:14px;font-weight:700}
+.skill-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(108px,1fr));gap:12px}
+.skill-tile{position:relative;aspect-ratio:1;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:30px 10px 12px;background:linear-gradient(145deg,var(--card),#0a1020);border:1px solid var(--line);border-radius:14px;color:var(--ink);font:500 12px/1.35 "Space Grotesk",system-ui,sans-serif;text-align:center;cursor:pointer;transition:border-color .22s ease,background .22s ease,box-shadow .22s ease,transform .22s ease}
+.skill-tile:hover{transform:translateY(-3px);border-color:var(--blue);background:linear-gradient(145deg,#111b30,#0d1322);box-shadow:0 9px 24px rgba(38,91,171,.16)}
+.skill-tile[aria-expanded="true"]{border-color:var(--blue);background:linear-gradient(145deg,#12203a,#0d1322);box-shadow:0 0 0 1px rgba(91,157,255,.16),0 9px 24px rgba(38,91,171,.14)}
+.skill-mark{width:34px;height:34px;display:grid;place-items:center;border-radius:11px;border:1px solid var(--line2);background:rgba(91,157,255,.08);color:var(--blue);font-size:10px;font-weight:700;letter-spacing:-.03em}
+.skill-name{max-width:100%;overflow-wrap:anywhere}
+.skill-open-indicator{position:absolute;top:9px;right:10px;width:21px;height:21px;display:grid;place-items:center;border-radius:50%;border:1px solid var(--line);color:var(--muted);font-size:15px;line-height:1;transition:transform .22s ease,color .22s ease,border-color .22s ease}
+.skill-tile:hover .skill-open-indicator,.skill-tile[aria-expanded="true"] .skill-open-indicator{color:var(--blue);border-color:var(--line2)}
+.skill-tile[aria-expanded="true"] .skill-open-indicator{transform:rotate(45deg)}
+.skill-info-panel{display:grid;gap:6px;margin-top:14px;padding:16px 18px;background:linear-gradient(145deg,var(--card2),var(--card));border:1px solid var(--line2);border-radius:12px;animation:skillReveal .24s ease-out both}
+.skill-info-panel[hidden]{display:none}
+.skill-info-panel h4{font-size:13px;font-weight:700}
+.skill-info-panel p{color:var(--muted);font-size:12px;line-height:1.6}
+.skill-info-panel a{display:inline-flex;align-items:center;gap:6px;width:max-content;margin-top:4px;color:var(--blue);font-size:11px;font-weight:700}
+.skill-info-panel .i{width:13px;height:13px}
+@media(max-width:480px){.skill-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}.skill-tile{padding:28px 7px 10px;font-size:11px;border-radius:12px}.skill-mark{width:31px;height:31px}}
+@media(max-width:360px){.skill-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(prefers-reduced-motion:no-preference){
+  .motion-enabled .skill-tile{opacity:0;transform:translateY(8px);transition:opacity .45s ease,transform .45s ease,border-color .22s ease,background .22s ease,box-shadow .22s ease}
+  .motion-enabled .skill-tile.is-visible{opacity:1;transform:translateY(0)}
+}
+@media(prefers-reduced-motion:reduce){
+  .skill-tile,.skill-tile .skill-open-indicator,.skill-info-panel{animation:none!important;transition:none!important;transform:none!important}
+}
